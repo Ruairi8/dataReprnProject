@@ -17,13 +17,14 @@ import using:
 import mysql-connector
 ```
 
-Connect using the <mark>".connect()"</mark> method of the MySQL Connector class. On successful connection, it returns a <mark>"MySQLConnection"<mark> object.
-  <mark>"host"</mark>, <mark>"username"</mark>, <mark>"password"</mark> and <mark>"database"</mark> must be provided. (If username is 'root', no password is needed).
-Use the ".cursor()" method on the MySQLConnection object to enable the user to do SQL operations on the data.
-Use "fetchall()", "fetchmany()" or "fetchone()" to read the query results.
+Connect using the **'.connect()'** method of the MySQL Connector class. On successful connection, it returns a **'MySQLConnection'** object.<br>
+**'host'**, **'username'**, **'password'** and **'database'** must be provided. (If username is 'root', no password is needed).
+<br>
+Use the **'.cursor()'** method on the MySQLConnection object to enable the user to do SQL operations on the data.
+Use **'fetchall()'**, **'fetchmany()'** or **'fetchone()'** to read the query results.
 CRUD operations (create, read, update, delete) can be performed on the data.
-Use "cursor.close()" and "connection.close()" methods to close open connections after you're done.
-
-One can download Wampserver, and open the MySQL console to create a database there and connect to it using Python or a database can be created using Python code and then tables can be created inside the database to store information.
-
-Flask is used to manipulate HTML templates using different 'routes', i.e. <mark>'@app.route()'</marl> in 'myserver.py' file.
+Use **'cursor.close()'** and **'connection.close()'** methods to close open connections after you're done.
+<br>
+One can download Wampserver, and open the MySQL console to create a database there and connect to it using Python or, provided you have successfully established a connection to MySQL; a database can be created using Python code and then tables can be created inside the database to store information.
+<br>
+Flask is used to manipulate HTML templates using different 'routes', i.e. **'@app.route()'** in 'myserver.py' file.
