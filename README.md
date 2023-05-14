@@ -8,6 +8,7 @@ A program that demonstrates creating and consuming RESTful APIs using Flask. The
 - Flask 
 - MySQL 
 
+## Requirements/how to run:
 pip command must be used to install MySQL connector: 
 ```python 
 pip install mysql-connector-python
@@ -28,3 +29,31 @@ Use **'cursor.close()'** and **'connection.close()'** methods to close open conn
 One can download Wampserver, and open the MySQL console to create a database there and connect to it using Python or, provided you have successfully established a connection to MySQL; a database can be created using Python code and then tables can be created inside the database to store information.
 <br>
 Flask is used to manipulate HTML templates using different 'routes', i.e. **'@app.route()'** in 'myserver.py' file.
+
+**Set up a virtual environment** (windows command prompt or cmder)
+Create the virtual environment:
+```python
+python3 -m venv virtualenvironmentname
+```
+Run the virtual environment from windows:
+```python
+.\venv\scrips\activate.bat
+```
+Show the packages:
+```python
+pip freeze
+```
+```python
+pip install flask
+```
+Save packages to a file:
+```python
+pip freeze > requirements.txt
+```
+Shows the packages and their versions:
+```python
+cat requirements.txt
+```
+
+
+                        
