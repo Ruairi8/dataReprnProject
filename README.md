@@ -1,7 +1,7 @@
 # Data Representation Module Project 
 ---
 ### Description:
-A program that demonstrates creating and consuming RESTful APIs using Flask. The application should link to one or more MySQL databases, and web pages should be created that can consume the API, performing CRUD operations on the data.
+A program that demonstrates creating and consuming RESTful APIs using Flask. The application should link to one or more MySQL databases, and web pages should be created that can consume the API, performing CRUD operations on the data. It also contains a DAO (Data Access Object) which incorporates functions to interact with a database.
 - HTML
 - JavaScript
 - Python
@@ -18,19 +18,21 @@ import using:
 ```python 
 import mysql-connector
 ```
-<p>1.Get a MySQL database running.<br>
-2.You can copy the relevant files, or clone the repository and run it on your own machine.<br>
-3.Type 'python myServer.py' on you command line and copy and paste the localhost web address provided. ('http://127.0.0.1:5000' for example) and click enter.<br>
-4.Add on the API (Application Program Interface) endpoints contained in the templates folder to the localhost adress e.g. 'myMenuViewer.html' and click refresh to interact with the menu.</p><br>
 <br>
-**Set up a virtual environment** (windows command prompt or cmder)
+1. Get a MySQL database running.<br>
+2. You can copy the relevant files, or clone the repository and run it on your own machine.<br>
+3. Type 'python myServer.py' on you command line and copy and paste the localhost web address provided. ('http://127.0.0.1:5000' for example) and click enter.<br>
+4. Add on the API (Application Program Interface) endpoints contained in the templates folder to the localhost adress e.g. 'myMenuViewer.html' and click refresh to interact with the menu.<br>
+<br>
+<b>Set up a virtual environment</b> (windows command prompt or cmder):
+<br>
 Create the virtual environment:
 ```python
 python3 -m venv virtualenvironmentname
 ```
 Run the virtual environment from windows:
 ```python
-.\venv\scrips\activate.bat
+.\venv\scripts\activate.bat
 ```
 Show the packages:
 ```python
@@ -47,8 +49,12 @@ Shows the packages and their versions:
 ```python
 cat requirements.txt
 ```
+Exit your virtual enviroment:
+```python
+exit
+```
 <br>
-**Further information**:
+<b>Further information:</b>
 Connect using the **'.connect()'** method of the MySQL Connector class. On successful connection, it returns a **'MySQLConnection'** object.<br>
 **'host'**, **'username'**, **'password'** and **'database'** must be provided. (If username is 'root', no password is needed).
 <br>
