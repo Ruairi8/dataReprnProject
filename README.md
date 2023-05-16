@@ -3,10 +3,11 @@
 ### Description:
 A program that demonstrates creating and consuming RESTful APIs using Flask. The application should link to one or more MySQL databases, and web pages should be created that can consume the API, performing CRUD operations on the data.
 - HTML
-- CSS
+- JavaScript
 - Python
 - Flask 
 - MySQL 
+- Ajax
 
 ## Requirements/how to run:
 pip command must be used to install MySQL connector: 
@@ -17,11 +18,11 @@ import using:
 ```python 
 import mysql-connector
 ```
-1.Get a MySQL database running.
-2.You can copy the relevant files, or clone the repository and run it on your own machine.
-3.Type 'python myServer.py' on you command line and copy and paste the localhost web address provided. ('http://127.0.0.1:5000' for example) and click enter.
+1.Get a MySQL database running.<br>
+2.You can copy the relevant files, or clone the repository and run it on your own machine.<br>
+3.Type 'python myServer.py' on you command line and copy and paste the localhost web address provided. ('http://127.0.0.1:5000' for example) and click enter.<br>
 4.Add on the API (Application Program Interface) endpoints contained in the templates folder to the localhost adress e.g. 'myMenuViewer.html' and click refresh to interact with the menu. 
-
+<br>
 **Set up a virtual environment** (windows command prompt or cmder)
 Create the virtual environment:
 ```python
