@@ -17,18 +17,10 @@ import using:
 ```python 
 import mysql-connector
 ```
-
-Connect using the **'.connect()'** method of the MySQL Connector class. On successful connection, it returns a **'MySQLConnection'** object.<br>
-**'host'**, **'username'**, **'password'** and **'database'** must be provided. (If username is 'root', no password is needed).
-<br>
-Use the **'.cursor()'** method on the MySQLConnection object to enable the user to do SQL operations on the data.
-Use **'fetchall()'**, **'fetchmany()'** or **'fetchone()'** to read the query results.
-CRUD operations (create, read, update, delete) can be performed on the data.
-Use **'cursor.close()'** and **'connection.close()'** methods to close open connections after you're done.
-<br>
-One can download Wampserver, and open the MySQL console to create a database there and connect to it using Python or, provided you have successfully established a connection to MySQL; a database can be created using Python code and then tables can be created inside the database to store information.
-<br>
-Flask is used to manipulate HTML templates using different 'routes', i.e. **'@app.route()'** in 'myserver.py' file.
+1.Get a MySQL database running.
+2.You can copy the relevant files, or clone the repository and run it on your own machine.
+3.Type 'python myServer.py' on you command line and copy and paste the localhost web address provided. ('http://127.0.0.1:5000' for example) and click enter.
+4.Add on the API (Application Program Interface) endpoints contained in the templates folder to the localhost adress e.g. 'myMenuViewer.html' and click refresh to interact with the menu. 
 
 **Set up a virtual environment** (windows command prompt or cmder)
 Create the virtual environment:
@@ -54,6 +46,18 @@ Shows the packages and their versions:
 ```python
 cat requirements.txt
 ```
+### Further information:
+Connect using the **'.connect()'** method of the MySQL Connector class. On successful connection, it returns a **'MySQLConnection'** object.<br>
+**'host'**, **'username'**, **'password'** and **'database'** must be provided. (If username is 'root', no password is needed).
+<br>
+Use the **'.cursor()'** method on the MySQLConnection object to enable the user to do SQL operations on the data.
+Use **'fetchall()'**, **'fetchmany()'** or **'fetchone()'** to read the query results.
+CRUD operations (create, read, update, delete) can be performed on the data.
+Use **'cursor.close()'** and **'connection.close()'** methods to close open connections after you're done.
+<br>
+One can download Wampserver, and open the MySQL console to create a database there and connect to it using Python or, provided you have successfully established a connection to MySQL; a database can be created using Python code and then tables can be created inside the database to store information.
+<br>
+Flask is used to manipulate HTML templates using different 'routes', i.e. **'@app.route()'** in 'myserver.py' file.
 
 
                         
