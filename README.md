@@ -21,8 +21,9 @@ import mysql-connector
 <br>
 1. Get a MySQL database running.<br>
 2. You can copy the relevant files, or clone the repository and run it on your own machine.<br>
-3. Type 'python myServer.py' on you command line and copy and paste the localhost web address provided. ('http://127.0.0.1:5000' for example) and click enter.<br>
-4. Add on the API (Application Program Interface) endpoints contained in the templates folder to the localhost adress e.g. 'myMenuViewer.html' and click refresh to interact with the menu.<br>
+3. On your command line, type 'pip install -r requirements.txt' to get the correct versions of packages.<br>
+4. Then type 'python myServer.py' on your command line and copy and paste the localhost web address provided. ('http://127.0.0.1:5000' for example) and click enter.<br>
+5. Add on the API (Application Program Interface) endpoints contained in the templates folder to the localhost adress e.g. 'myMenuViewer.html' and click refresh to interact with the menu.<br>
 <br>
 <b>Set up a virtual environment</b> (windows command prompt or cmder):
 <br>
