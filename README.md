@@ -18,10 +18,10 @@ import using:
 ```python 
 import mysql-connector
 ```
-1.Get a MySQL database running.<br>
+<p>1.Get a MySQL database running.<br>
 2.You can copy the relevant files, or clone the repository and run it on your own machine.<br>
 3.Type 'python myServer.py' on you command line and copy and paste the localhost web address provided. ('http://127.0.0.1:5000' for example) and click enter.<br>
-4.Add on the API (Application Program Interface) endpoints contained in the templates folder to the localhost adress e.g. 'myMenuViewer.html' and click refresh to interact with the menu. 
+4.Add on the API (Application Program Interface) endpoints contained in the templates folder to the localhost adress e.g. 'myMenuViewer.html' and click refresh to interact with the menu.</p><br>
 <br>
 **Set up a virtual environment** (windows command prompt or cmder)
 Create the virtual environment:
@@ -47,7 +47,8 @@ Shows the packages and their versions:
 ```python
 cat requirements.txt
 ```
-### Further information:
+<br>
+**Further information**:
 Connect using the **'.connect()'** method of the MySQL Connector class. On successful connection, it returns a **'MySQLConnection'** object.<br>
 **'host'**, **'username'**, **'password'** and **'database'** must be provided. (If username is 'root', no password is needed).
 <br>
